@@ -3,43 +3,44 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "b98d87114c1a18b0c150b9a3505f10b3",
-"index.html": "5ec7aea928d961b8d66962a6ff3e0013",
-"/": "5ec7aea928d961b8d66962a6ff3e0013",
-"main.dart.js": "9d42bb13bd6d56e1f22b468f04b64fee",
-"favicon.png": "598f9117c6c36af52cd6dc9049c84a66",
+  "version.json": "d95b0a47c98689723cd16da46d084cf7",
+"index.html": "b1709a2e859d06602a9c08c9a7b418d8",
+"/": "b1709a2e859d06602a9c08c9a7b418d8",
+"main.dart.js": "8175ba16209eb8e9afacb3ed6ae5665e",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"favicon.png": "458b3929ff99104d3e637539c6b8667c",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "6b2b8c7890978944d8c36d27284c0d3c",
-"assets/AssetManifest.json": "cb27a8434cfb04c347564de091d1b633",
-"assets/NOTICES": "1e8b6af71f6500d82e686342ed7eef40",
+"manifest.json": "bb2a59c535d08fbcd9161d88af995186",
+"assets/AssetManifest.json": "ce6895b4c6d5122b9d3d8667ed8706a8",
+"assets/NOTICES": "cac5e792ecd52bb74e1e550986386c84",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/shaders/ink_sparkle.frag": "6fbaa30be3009c09d4ceb4bddd473eae",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/audios/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/rive_animations/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/images/app_launcher_icon.png": "598f9117c6c36af52cd6dc9049c84a66",
 "assets/assets/images/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"assets/assets/lottie_animations/lf30_editor_w6g8dtp1.json": "ff1a0c4bd9fa865235f75591ff349a1a",
 "assets/assets/lottie_animations/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/videos/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/pdfs/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -138,9 +139,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
