@@ -12,7 +12,7 @@ import { Input } from "./components/ui/input";
 import { Textarea } from "./components/ui/textarea";
 import { Badge } from "./components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
-import { MapPin, Mail, Github, Linkedin, Send, Download, Android } from "lucide-react";
+import { MapPin, Mail, Github, Linkedin, Send, Download, Smartphone } from "lucide-react";
 import { profileData, skills, projects, testimonials } from "./mock";
 import { useToast } from "./hooks/use-toast";
 import { Toaster } from "./components/ui/toaster";
