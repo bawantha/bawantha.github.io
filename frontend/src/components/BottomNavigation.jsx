@@ -10,8 +10,8 @@ const BottomNavigation = ({ activeSection, onNavigate }) => {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-[#1E1E1E] border-t border-[#2E2E2E] z-40 pb-safe">
-      <div className="flex items-center justify-around h-16 max-w-md mx-auto">
+    <nav className="absolute bottom-0 left-0 right-0 bg-[#1E1E1E] border-t border-[#2E2E2E] z-40">
+      <div className="flex items-center justify-around h-16">
         {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = activeSection === item.id;
