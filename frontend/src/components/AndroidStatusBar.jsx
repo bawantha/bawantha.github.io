@@ -9,7 +9,7 @@ const AndroidStatusBar = () => {
   });
 
   return (
-    <div className="fixed top-0 left-0 right-0 h-6 bg-black text-white z-50 flex items-center justify-between px-4 text-xs">
+    <div className="absolute top-0 left-0 right-0 h-6 bg-black text-white z-50 flex items-center justify-between px-4 text-xs">
       <div className="flex items-center gap-1">
         <span className="font-medium">{currentTime}</span>
       </div>
