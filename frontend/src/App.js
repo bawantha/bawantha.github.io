@@ -80,11 +80,14 @@ const Home = () => {
   const allProjects = projects;
 
   return (
-    <div className="bg-[#121212] min-h-screen text-white relative">
+    <div className="bg-[#121212] h-full text-white relative flex flex-col">
       <AndroidStatusBar />
       
-      {/* Main Content with padding for status bar and bottom nav */}
-      <div className="pt-6 pb-20">
+      {/* Main Scrollable Content */}
+      <div className="flex-1 overflow-y-auto overflow-x-hidden pt-6 pb-16" style={{
+        scrollbarWidth: 'none',
+        msOverflowStyle: 'none'
+      }}>
         {/* Hero Section */}
         <section id="home" ref={sectionsRef.home} className="px-4 min-h-[calc(100vh-7rem)]">
           <div className="max-w-md mx-auto">
