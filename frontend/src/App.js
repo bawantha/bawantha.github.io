@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AndroidFrame from "./components/AndroidFrame";
 import AndroidStatusBar from "./components/AndroidStatusBar";
 import BottomNavigation from "./components/BottomNavigation";
 import SkillProgress from "./components/SkillProgress";
