@@ -96,7 +96,7 @@ const Home = () => {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold text-white">{profileData.name}</h1>
               <div className="flex items-center justify-center gap-2">
-                <Android size={18} className="text-[#3DDC84]" />
+                <Smartphone size={18} className="text-[#3DDC84]" />
                 <p className="text-lg text-[#3DDC84] font-medium">{profileData.title}</p>
               </div>
               <div className="flex items-center justify-center gap-1 text-[#B3B3B3]">
