@@ -1,0 +1,98 @@
+baseURL = "https://bawantha.github.io/"
+languageCode = "en-au"
+title = "Bawantha Ra."
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  env = "production"
+  description = "Portfolio of Bawantha Ra. - mobile engineer, writer, and builder in Australia."
+  keywords = ["Bawantha", "Portfolio", "Flutter", "Android", "Kotlin", "Dart", "Australia"]
+  author = "Bawantha Ra."
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = true
+  disableScrollToTop = false
+  images = ["https://github.com/bawantha.png"]
+
+  [params.label]
+    text = "Bawantha Ra."
+
+  [params.profileMode]
+    enabled = true
+    title = "Bawantha Ra."
+    subtitle = "Mobile engineer in Australia building thoughtful apps, backend systems, and developer tools. I write about software + life, share lessons from shipping, and care deeply about clean product experiences."
+    imageUrl = "https://github.com/bawantha.png"
+    imageWidth = 180
+    imageHeight = 180
+    imageTitle = "Bawantha Ra."
+
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects/"
+
+    [[params.profileMode.buttons]]
+      name = "Writing"
+      url = "/writing/"
+
+    [[params.profileMode.buttons]]
+      name = "Contact"
+      url = "/contact/"
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "https://bawantha.blog/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/bawantha"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:bawanth.inbox@gmail.com"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "writing"
+  name = "Writing"
+  url = "/writing/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "https://bawantha.blog/"
+  weight = 50

@@ -27,6 +27,9 @@ next-env.d.ts
 
 # Production builds
 /build
+/public
+/resources/_gen/
+/.hugo_build.lock
 dist/
 dist
 
