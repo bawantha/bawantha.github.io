@@ -35,7 +35,7 @@ enableRobotsTXT = true
     text = "Bawantha Ra."
 
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "Bawantha Ra."
     subtitle = "Mobile engineer in Australia building thoughtful apps, backend systems, and developer tools. I write about software + life, share lessons from shipping, and care deeply about clean product experiences."
     imageUrl = "https://github.com/bawantha.png"
@@ -66,6 +66,61 @@ enableRobotsTXT = true
   [[params.socialIcons]]
     name = "email"
     url = "mailto:bawanth.inbox@gmail.com"
+
+  [[params.focusAreas]]
+    title = "Mobile systems"
+    text = "Flutter, Android, Kotlin, and the product thinking that makes apps feel calm and dependable."
+
+  [[params.focusAreas]]
+    title = "Backend foundations"
+    text = "API design, service reliability, and practical systems that support real mobile experiences."
+
+  [[params.focusAreas]]
+    title = "Open source"
+    text = "Small tools, wrappers, and experiments that remove friction for developers."
+
+  [[params.focusAreas]]
+    title = "Writing"
+    text = "Technical notes, interview reflections, and software lessons shared at bawantha.blog."
+
+  [[params.featuredProjects]]
+    title = "payhere_flutter"
+    summary = "A Flutter wrapper around the native PayHere Android SDK, built to smooth out a painful integration edge."
+    stack = "Flutter, Dart, Android SDK"
+    url = "https://github.com/bawantha/payhere_flutter"
+
+  [[params.featuredProjects]]
+    title = "flutter-widget-catcher"
+    summary = "A developer productivity tool for inspecting and iterating on Flutter UI faster."
+    stack = "Flutter, DX tooling"
+    url = "https://github.com/bawantha/flutter-widget-catcher"
+
+  [[params.featuredProjects]]
+    title = "composifi"
+    summary = "Jetpack Compose exploration focused on expressive motion and polished mobile UI."
+    stack = "Kotlin, Jetpack Compose"
+    url = "https://github.com/bawantha/composifi"
+
+  [[params.featuredProjects]]
+    title = "ktor-banking"
+    summary = "A Kotlin backend experiment shaped around banking-style APIs and dependable service design."
+    stack = "Kotlin, Ktor"
+    url = "https://github.com/bawantha/ktor-banking"
+
+  [[params.featuredWriting]]
+    title = "Managing API Contracts: Mobile Developer's Perspective"
+    summary = "A practical look at keeping backend and mobile teams aligned when APIs evolve."
+    url = "https://bawantha.blog/2025/03/21/managing-api-contracts-mobile-developers-perspective/"
+
+  [[params.featuredWriting]]
+    title = "Isolates in Dart and Flutter"
+    summary = "A clean explanation of isolates, concurrency, and when they matter in Flutter apps."
+    url = "https://bawantha.blog/2024/11/12/isolates-in-dart-and-flutter/"
+
+  [[params.featuredWriting]]
+    title = "Interview Experience at Cloudflare"
+    summary = "A candid write-up of process, preparation, and lessons from an interview loop."
+    url = "https://bawantha.blog/2024/09/29/interview-experience-cloudflare/"
 
 [[menu.main]]
   identifier = "about"
