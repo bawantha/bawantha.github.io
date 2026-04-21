@@ -1,0 +1,490 @@
+[
+  {
+    "name": "composifi",
+    "description": "Bringing Cool Animations to Life with Jetpack Compose",
+    "language": "Kotlin",
+    "url": "https://github.com/bawantha/composifi",
+    "homepage": "",
+    "updated_at": "2026-04-21T04:38:43Z"
+  },
+  {
+    "name": "ktor-banking",
+    "description": "Banking API with Ktor",
+    "language": "Kotlin",
+    "url": "https://github.com/bawantha/ktor-banking",
+    "homepage": "",
+    "updated_at": "2026-04-17T07:36:56Z"
+  },
+  {
+    "name": "rag-al",
+    "description": "No description available yet.",
+    "language": "Python",
+    "url": "https://github.com/bawantha/rag-al",
+    "homepage": "",
+    "updated_at": "2026-04-10T02:19:27Z"
+  },
+  {
+    "name": "KotlinKafka",
+    "description": "Simple Kafka with Kotlin",
+    "language": "Code",
+    "url": "https://github.com/bawantha/KotlinKafka",
+    "homepage": "",
+    "updated_at": "2026-04-05T18:17:28Z"
+  },
+  {
+    "name": "CockRoachCB",
+    "description": "No description available yet.",
+    "language": "HTML",
+    "url": "https://github.com/bawantha/CockRoachCB",
+    "homepage": "",
+    "updated_at": "2026-04-05T17:54:28Z"
+  },
+  {
+    "name": "CockroachClipboard",
+    "description": "No description available yet.",
+    "language": "Makefile",
+    "url": "https://github.com/bawantha/CockroachClipboard",
+    "homepage": "",
+    "updated_at": "2026-03-27T10:14:40Z"
+  },
+  {
+    "name": "audio",
+    "description": "No description available yet.",
+    "language": "Kotlin",
+    "url": "https://github.com/bawantha/audio",
+    "homepage": "",
+    "updated_at": "2026-03-23T23:09:21Z"
+  },
+  {
+    "name": "WellNess",
+    "description": "No description available yet.",
+    "language": "Kotlin",
+    "url": "https://github.com/bawantha/WellNess",
+    "homepage": "",
+    "updated_at": "2026-03-21T01:30:38Z"
+  },
+  {
+    "name": "ML-TRADING-SYSTEM",
+    "description": "No description available yet.",
+    "language": "Python",
+    "url": "https://github.com/bawantha/ML-TRADING-SYSTEM",
+    "homepage": "",
+    "updated_at": "2025-12-02T03:21:08Z"
+  },
+  {
+    "name": "juce_audio",
+    "description": "Trying to create Dart wrapper for JUCE",
+    "language": "Dart",
+    "url": "https://github.com/bawantha/juce_audio",
+    "homepage": "",
+    "updated_at": "2025-08-17T01:56:43Z"
+  },
+  {
+    "name": "flutter-widget-catcher",
+    "description": "Copy Flutter widget easily...",
+    "language": "JavaScript",
+    "url": "https://github.com/bawantha/flutter-widget-catcher",
+    "homepage": "",
+    "updated_at": "2025-08-16T00:00:53Z"
+  },
+  {
+    "name": "juice_flutter_app",
+    "description": "No description available yet.",
+    "language": "C++",
+    "url": "https://github.com/bawantha/juice_flutter_app",
+    "homepage": "",
+    "updated_at": "2025-08-15T22:00:30Z"
+  },
+  {
+    "name": "badger-app",
+    "description": "No description available yet.",
+    "language": "TypeScript",
+    "url": "https://github.com/bawantha/badger-app",
+    "homepage": "",
+    "updated_at": "2025-08-09T04:24:32Z"
+  },
+  {
+    "name": "WhatsPacket",
+    "description": "No description available yet.",
+    "language": "Kotlin",
+    "url": "https://github.com/bawantha/WhatsPacket",
+    "homepage": "",
+    "updated_at": "2025-02-23T00:58:16Z"
+  },
+  {
+    "name": "bulksms",
+    "description": "Sending bulk SMS at once cost more than regular price,but sending through normal phone is quite hectik process here in this app you can autmate sending process of SMS ",
+    "language": "Dart",
+    "url": "https://github.com/bawantha/bulksms",
+    "homepage": "",
+    "updated_at": "2025-01-23T01:16:11Z"
+  },
+  {
+    "name": "handsonjsp",
+    "description": "No description available yet.",
+    "language": "Java",
+    "url": "https://github.com/bawantha/handsonjsp",
+    "homepage": "",
+    "updated_at": "2025-01-08T13:11:53Z"
+  },
+  {
+    "name": "gifted",
+    "description": "No description available yet.",
+    "language": "Java",
+    "url": "https://github.com/bawantha/gifted",
+    "homepage": "",
+    "updated_at": "2025-01-08T13:11:50Z"
+  },
+  {
+    "name": "kotlin-gradle",
+    "description": "No description available yet.",
+    "language": "Java",
+    "url": "https://github.com/bawantha/kotlin-gradle",
+    "homepage": "",
+    "updated_at": "2025-01-05T14:09:19Z"
+  },
+  {
+    "name": "OOSD-Lakenozama",
+    "description": "No description available yet.",
+    "language": "Java",
+    "url": "https://github.com/bawantha/OOSD-Lakenozama",
+    "homepage": "",
+    "updated_at": "2024-12-26T13:34:15Z"
+  },
+  {
+    "name": "code_player",
+    "description": "No description available yet.",
+    "language": "HTML",
+    "url": "https://github.com/bawantha/code_player",
+    "homepage": "",
+    "updated_at": "2024-12-26T13:34:15Z"
+  },
+  {
+    "name": "my-app",
+    "description": "No description available yet.",
+    "language": "TypeScript",
+    "url": "https://github.com/bawantha/my-app",
+    "homepage": "",
+    "updated_at": "2024-12-17T09:00:16Z"
+  },
+  {
+    "name": "HangMan",
+    "description": "Django REST API Development ",
+    "language": "Python",
+    "url": "https://github.com/bawantha/HangMan",
+    "homepage": "",
+    "updated_at": "2024-12-05T02:23:51Z"
+  },
+  {
+    "name": "nginx-express",
+    "description": "No description available yet.",
+    "language": "JavaScript",
+    "url": "https://github.com/bawantha/nginx-express",
+    "homepage": "",
+    "updated_at": "2024-11-04T20:42:57Z"
+  },
+  {
+    "name": "DailyPulse",
+    "description": "No description available yet.",
+    "language": "Java",
+    "url": "https://github.com/bawantha/DailyPulse",
+    "homepage": "",
+    "updated_at": "2024-10-28T23:53:34Z"
+  },
+  {
+    "name": "rush-monorepo",
+    "description": "No description available yet.",
+    "language": "TypeScript",
+    "url": "https://github.com/bawantha/rush-monorepo",
+    "homepage": "",
+    "updated_at": "2024-10-25T01:37:59Z"
+  },
+  {
+    "name": "kafka-beam",
+    "description": "No description available yet.",
+    "language": "Java",
+    "url": "https://github.com/bawantha/kafka-beam",
+    "homepage": "",
+    "updated_at": "2024-10-18T17:37:05Z"
+  },
+  {
+    "name": "ansible-web-tryout",
+    "description": "No description available yet.",
+    "language": "JavaScript",
+    "url": "https://github.com/bawantha/ansible-web-tryout",
+    "homepage": "",
+    "updated_at": "2024-08-18T05:00:08Z"
+  },
+  {
+    "name": "sdg_ti",
+    "description": "Flutter Clean Architecture Demo",
+    "language": "Dart",
+    "url": "https://github.com/bawantha/sdg_ti",
+    "homepage": "",
+    "updated_at": "2024-06-12T06:44:59Z"
+  },
+  {
+    "name": "payhere_flutter",
+    "description": "Dart wrapper for native payhere android SDK",
+    "language": "Dart",
+    "url": "https://github.com/bawantha/payhere_flutter",
+    "homepage": "",
+    "updated_at": "2024-01-18T11:10:19Z"
+  },
+  {
+    "name": "flutter_thoughts",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/flutter_thoughts",
+    "homepage": "",
+    "updated_at": "2023-03-05T08:59:12Z"
+  },
+  {
+    "name": "superset-nginx-reverse-proxy-URL-rewrite",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/superset-nginx-reverse-proxy-URL-rewrite",
+    "homepage": "",
+    "updated_at": "2022-12-16T03:29:23Z"
+  },
+  {
+    "name": "gatsby-starter-default",
+    "description": "The default Gatsby starter",
+    "language": "JavaScript",
+    "url": "https://github.com/bawantha/gatsby-starter-default",
+    "homepage": "",
+    "updated_at": "2022-10-04T03:11:09Z"
+  },
+  {
+    "name": "gatsby-starter-contentful-homepage",
+    "description": "This repository was created by Gatsby Cloud",
+    "language": "JavaScript",
+    "url": "https://github.com/bawantha/gatsby-starter-contentful-homepage",
+    "homepage": "",
+    "updated_at": "2022-10-04T03:03:14Z"
+  },
+  {
+    "name": "demo-twitter",
+    "description": "No description available yet.",
+    "language": "Dart",
+    "url": "https://github.com/bawantha/demo-twitter",
+    "homepage": "",
+    "updated_at": "2022-08-21T20:50:12Z"
+  },
+  {
+    "name": "policy",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/policy",
+    "homepage": "",
+    "updated_at": "2022-03-16T17:53:42Z"
+  },
+  {
+    "name": "daily-fb",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/daily-fb",
+    "homepage": "",
+    "updated_at": "2022-03-13T14:32:38Z"
+  },
+  {
+    "name": "omdb_movie_app",
+    "description": "code test ",
+    "language": "Dart",
+    "url": "https://github.com/bawantha/omdb_movie_app",
+    "homepage": "",
+    "updated_at": "2022-01-09T11:34:09Z"
+  },
+  {
+    "name": "indigo",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/indigo",
+    "homepage": "",
+    "updated_at": "2021-08-26T05:04:39Z"
+  },
+  {
+    "name": "f-f",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/f-f",
+    "homepage": "",
+    "updated_at": "2021-08-20T15:36:40Z"
+  },
+  {
+    "name": "Proxy_siganture_implementation",
+    "description": "No description available yet.",
+    "language": "Python",
+    "url": "https://github.com/bawantha/Proxy_siganture_implementation",
+    "homepage": "",
+    "updated_at": "2021-03-14T11:12:24Z"
+  },
+  {
+    "name": "Realtime-monitoring-of-dns-traffics",
+    "description": "No description available yet.",
+    "language": "Python",
+    "url": "https://github.com/bawantha/Realtime-monitoring-of-dns-traffics",
+    "homepage": "",
+    "updated_at": "2021-01-16T15:44:07Z"
+  },
+  {
+    "name": "one-click-hugo-cms",
+    "description": "No description available yet.",
+    "language": "CSS",
+    "url": "https://github.com/bawantha/one-click-hugo-cms",
+    "homepage": "",
+    "updated_at": "2020-12-17T02:13:02Z"
+  },
+  {
+    "name": "Adbit",
+    "description": "No description available yet.",
+    "language": "Handlebars",
+    "url": "https://github.com/bawantha/Adbit",
+    "homepage": "",
+    "updated_at": "2020-11-23T11:01:25Z"
+  },
+  {
+    "name": "Adbit_1606129240115",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/Adbit_1606129240115",
+    "homepage": "",
+    "updated_at": "2020-11-23T11:00:40Z"
+  },
+  {
+    "name": "demo",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/demo",
+    "homepage": "",
+    "updated_at": "2020-11-23T10:56:25Z"
+  },
+  {
+    "name": "test",
+    "description": "No description available yet.",
+    "language": "Handlebars",
+    "url": "https://github.com/bawantha/test",
+    "homepage": "",
+    "updated_at": "2020-11-23T08:02:33Z"
+  },
+  {
+    "name": "face-scan-makeup",
+    "description": "No description available yet.",
+    "language": "Python",
+    "url": "https://github.com/bawantha/face-scan-makeup",
+    "homepage": "",
+    "updated_at": "2020-11-15T07:21:17Z"
+  },
+  {
+    "name": "shell",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/shell",
+    "homepage": "",
+    "updated_at": "2020-11-01T16:31:09Z"
+  },
+  {
+    "name": "pydj",
+    "description": "No description available yet.",
+    "language": "Python",
+    "url": "https://github.com/bawantha/pydj",
+    "homepage": "",
+    "updated_at": "2020-08-15T20:38:54Z"
+  },
+  {
+    "name": "NN",
+    "description": "No description available yet.",
+    "language": "Jupyter Notebook",
+    "url": "https://github.com/bawantha/NN",
+    "homepage": "",
+    "updated_at": "2020-07-26T07:00:31Z"
+  },
+  {
+    "name": "ExhibtionGuide",
+    "description": "CS-4472- Mobile Computing Project",
+    "language": "Dart",
+    "url": "https://github.com/bawantha/ExhibtionGuide",
+    "homepage": "",
+    "updated_at": "2020-07-21T17:42:24Z"
+  },
+  {
+    "name": "Twitter-kafka",
+    "description": "No description available yet.",
+    "language": "Java",
+    "url": "https://github.com/bawantha/Twitter-kafka",
+    "homepage": "",
+    "updated_at": "2020-07-09T09:36:46Z"
+  },
+  {
+    "name": "CoreML",
+    "description": "No description available yet.",
+    "language": "Swift",
+    "url": "https://github.com/bawantha/CoreML",
+    "homepage": "",
+    "updated_at": "2020-06-30T12:35:10Z"
+  },
+  {
+    "name": "ride_fare",
+    "description": "No description available yet.",
+    "language": "Jupyter Notebook",
+    "url": "https://github.com/bawantha/ride_fare",
+    "homepage": "",
+    "updated_at": "2020-06-22T19:59:29Z"
+  },
+  {
+    "name": "kafka-dev",
+    "description": "No description available yet.",
+    "language": "Java",
+    "url": "https://github.com/bawantha/kafka-dev",
+    "homepage": "",
+    "updated_at": "2020-06-18T13:07:45Z"
+  },
+  {
+    "name": "AR-solar",
+    "description": "AR-based solar system",
+    "language": "Jupyter Notebook",
+    "url": "https://github.com/bawantha/AR-solar",
+    "homepage": "",
+    "updated_at": "2020-06-13T15:19:29Z"
+  },
+  {
+    "name": "jbank",
+    "description": "No description available yet.",
+    "language": "Swift",
+    "url": "https://github.com/bawantha/jbank",
+    "homepage": "",
+    "updated_at": "2020-05-25T22:56:05Z"
+  },
+  {
+    "name": "spacebook",
+    "description": "No description available yet.",
+    "language": "Dart",
+    "url": "https://github.com/bawantha/spacebook",
+    "homepage": "",
+    "updated_at": "2020-05-24T22:40:22Z"
+  },
+  {
+    "name": "drop",
+    "description": "No description available yet.",
+    "language": "Code",
+    "url": "https://github.com/bawantha/drop",
+    "homepage": "",
+    "updated_at": "2020-04-15T22:37:47Z"
+  },
+  {
+    "name": "riora",
+    "description": "No description available yet.",
+    "language": "JavaScript",
+    "url": "https://github.com/bawantha/riora",
+    "homepage": "https://nextjs-seven-tau-58.now.sh",
+    "updated_at": "2020-03-16T18:15:38Z"
+  },
+  {
+    "name": "DBMS-ecommerce",
+    "description": "This project is for DBMS module",
+    "language": "PHP",
+    "url": "https://github.com/bawantha/DBMS-ecommerce",
+    "homepage": "",
+    "updated_at": "2020-03-04T16:23:18Z"
+  }
+]

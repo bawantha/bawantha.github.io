@@ -16,50 +16,6 @@
       <a class="button" href="/about/">About</a>
     </div>
   </div>
-  <div class="hero-visual">
-    <div class="portrait-wrap">
-      <img src="https://github.com/bawantha.png" alt="Bawantha Ra." />
-    </div>
-    <div class="statement-card">
-      <div class="statement-row">
-        <span>Location</span>
-        <strong>Australia</strong>
-      </div>
-      <div class="statement-row">
-        <span>Focus</span>
-        <strong>Mobile apps and backend systems</strong>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="feature-section">
-  <div class="section-heading">
-    <p class="eyebrow">About</p>
-    <h2>{{ site.Params.aboutSection.title }}</h2>
-    <p>
-      {{ site.Params.aboutSection.text }}
-    </p>
-  </div>
-</section>
-
-<section class="feature-section">
-  <div class="section-heading">
-    <p class="eyebrow">Projects</p>
-    <h2>Selected projects</h2>
-    <p>
-      A few things I have built and shared publicly.
-    </p>
-  </div>
-  <div class="feature-grid">
-    {{ range site.Params.projectCards }}
-    <a class="feature-card" href="{{ .url }}" rel="noopener">
-      <p class="feature-meta">Project</p>
-      <h3>{{ .title }}</h3>
-      <p>{{ .text }}</p>
-    </a>
-    {{ end }}
-  </div>
 </section>
 
 {{- else }}

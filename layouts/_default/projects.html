@@ -1,0 +1,30 @@
+{{- define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description }}</div>
+    {{- end }}
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content md-content">
+    {{ .Content }}
+  </div>
+  {{- end }}
+
+  <section class="projects-grid">
+    {{- range sort hugo.Data.projects "updated_at" "desc" }}
+    <a class="project-tile" href="{{ .url }}" rel="noopener">
+      <p class="feature-meta">{{ .language }}</p>
+      <h2>{{ .name }}</h2>
+      <p>{{ .description }}</p>
+      {{- if .homepage }}
+      <span class="project-link">Has live link</span>
+      {{- end }}
+    </a>
+    {{- end }}
+  </section>
+</article>
+{{- end }}

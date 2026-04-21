@@ -48,31 +48,11 @@ enableRobotsTXT = true
   [params.homeIntro]
     title = "Bawantha Ra."
     lead = "I build mobile apps and software that feel simple, fast, and useful."
-    blurb = "This is a small portfolio with a short introduction and a few selected projects."
+    blurb = "This is a small portfolio with a short introduction and a full projects page."
 
   [params.aboutSection]
     title = "About"
     text = "I am a software engineer based in Australia, focused on mobile development, backend systems, and product-minded engineering. I like building clean experiences and reliable systems behind them."
-
-  [[params.projectCards]]
-    title = "payhere_flutter"
-    text = "A Flutter wrapper for the native PayHere Android SDK."
-    url = "https://github.com/bawantha/payhere_flutter"
-
-  [[params.projectCards]]
-    title = "flutter-widget-catcher"
-    text = "A small tool to help inspect and iterate on Flutter UI."
-    url = "https://github.com/bawantha/flutter-widget-catcher"
-
-  [[params.projectCards]]
-    title = "composifi"
-    text = "Jetpack Compose experiments around polished mobile UI."
-    url = "https://github.com/bawantha/composifi"
-
-  [[params.projectCards]]
-    title = "ktor-banking"
-    text = "A Kotlin backend experiment around banking-style APIs."
-    url = "https://github.com/bawantha/ktor-banking"
 
 [[menu.main]]
   identifier = "about"

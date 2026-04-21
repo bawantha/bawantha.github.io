@@ -104,10 +104,8 @@ body {
 
 .home-hero {
     min-height: calc(100vh - var(--header-height) - 2rem);
-    display: grid;
-    grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+    display: flex;
     align-items: center;
-    gap: clamp(2rem, 5vw, 5rem);
     padding: clamp(2rem, 4vw, 4rem) 0 2rem;
 }
 
@@ -132,7 +130,7 @@ body {
 .hero-copy h1 {
     margin: 0;
     font-size: clamp(4.2rem, 9vw, 8rem);
-    max-width: 9ch;
+    max-width: 8ch;
 }
 
 .hero-lead {
@@ -175,61 +173,12 @@ body {
     border-color: #332c26;
 }
 
-.hero-visual {
-    position: relative;
-    display: grid;
-    justify-items: center;
-    gap: 1.25rem;
-}
-
-.portrait-wrap {
-    width: min(100%, 380px);
-    aspect-ratio: 0.9;
-    padding: 1rem;
-    border-radius: 40px;
-    background:
-        linear-gradient(145deg, rgba(255, 252, 246, 0.96), rgba(238, 225, 213, 0.72)),
-        radial-gradient(circle at top, rgba(191, 107, 61, 0.18), transparent 60%);
-    box-shadow: 0 28px 90px rgba(41, 30, 22, 0.12);
-    transform: rotate(3deg);
-}
-
-.portrait-wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 28px;
-    display: block;
-}
-
-.statement-card,
-.focus-tile,
 .feature-card,
-.cta-panel {
+.project-tile {
     background: color-mix(in srgb, var(--entry) 88%, transparent);
     border: 1px solid var(--border);
     box-shadow: 0 18px 48px rgba(41, 30, 22, 0.06);
 }
-
-.statement-card {
-    width: min(100%, 360px);
-    border-radius: 26px;
-    padding: 0.6rem 1.15rem;
-    margin-top: -2rem;
-    backdrop-filter: blur(18px);
-}
-
-.statement-row {
-    display: grid;
-    gap: 0.15rem;
-    padding: 0.9rem 0;
-}
-
-.statement-row + .statement-row {
-    border-top: 1px solid var(--border);
-}
-
-.statement-row span,
 .feature-meta {
     display: inline-block;
     font-size: 0.78rem;
@@ -237,31 +186,8 @@ body {
     letter-spacing: 0.14em;
     color: #8a6b58;
 }
-
-.statement-row strong {
-    line-height: 1.55;
-    color: var(--content);
-    font-weight: 600;
-}
-
-.home-strip,
-.feature-grid {
-    display: grid;
-    gap: 1rem;
-}
-
-.home-strip {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    margin: 0.5rem 0 4rem;
-}
-
-.focus-tile {
-    border-radius: 24px;
-    padding: 1.3rem;
-}
-
-.focus-tile h2,
-.feature-card h3 {
+.feature-card h3,
+.project-tile h2 {
     margin: 0 0 0.7rem;
     letter-spacing: -0.04em;
     color: var(--primary);
@@ -304,45 +230,54 @@ body {
     box-shadow: 0 24px 64px rgba(41, 30, 22, 0.1);
 }
 
-.writing-section .feature-card {
-    background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.16)),
-        color-mix(in srgb, var(--entry) 88%, transparent);
-}
-
-.cta-panel {
-    margin: 4rem 0 2rem;
-    border-radius: 32px;
-    padding: clamp(1.5rem, 3vw, 2.2rem);
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 1.5rem;
-    align-items: end;
-}
-
-:root[data-theme="dark"] .portrait-wrap {
-    background:
-        linear-gradient(145deg, rgba(41, 31, 24, 0.96), rgba(20, 16, 13, 0.82)),
-        radial-gradient(circle at top, rgba(191, 107, 61, 0.18), transparent 60%);
-    box-shadow: 0 34px 100px rgba(0, 0, 0, 0.32);
-}
-
 :root[data-theme="dark"] .button-primary {
     background: #f2dfcf;
     color: #171311;
     border-color: #f2dfcf;
 }
 
-@media (max-width: 1024px) {
-    .home-hero,
-    .cta-panel,
-    .home-strip,
-    .feature-grid {
-        grid-template-columns: 1fr;
-    }
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
 
-    .hero-visual {
-        order: -1;
+.project-tile {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border-radius: 22px;
+    padding: 1.25rem;
+    text-decoration: none;
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.project-tile:hover {
+    transform: translateY(-3px);
+    border-color: rgba(191, 107, 61, 0.28);
+    box-shadow: 0 24px 64px rgba(41, 30, 22, 0.1);
+}
+
+.project-tile p {
+    margin: 0;
+    line-height: 1.7;
+    color: var(--secondary);
+}
+
+.project-link {
+    margin-top: auto;
+    font-size: 0.88rem;
+    color: var(--primary);
+}
+
+@media (max-width: 1024px) {
+    .feature-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -361,16 +296,7 @@ body {
     }
 
     .section-heading h2,
-    .cta-panel h2 {
+    .hero-copy h1 {
         line-height: 1.02;
-    }
-
-    .portrait-wrap {
-        max-width: 320px;
-        transform: none;
-    }
-
-    .statement-card {
-        margin-top: -1rem;
     }
 }
