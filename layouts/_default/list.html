@@ -4,85 +4,61 @@
 <section class="home-hero">
   <div class="hero-copy">
     <p class="eyebrow">Portfolio</p>
-    <h1>Bawantha Ra.</h1>
+    <h1>{{ site.Params.homeIntro.title }}</h1>
     <p class="hero-lead">
-      Mobile engineer in Australia building thoughtful apps, stable backend systems, and useful developer tools.
+      {{ site.Params.homeIntro.lead }}
     </p>
     <p class="hero-support">
-      I work across Flutter, Android, Kotlin, and product-minded engineering. I care about interfaces that feel effortless and the systems underneath them that stay reliable.
+      {{ site.Params.homeIntro.blurb }}
     </p>
     <div class="hero-actions">
-      <a class="button button-primary" href="/projects/">See projects</a>
-      <a class="button" href="https://bawantha.blog/" rel="noopener">Read the blog</a>
-      <a class="button" href="mailto:bawanth.inbox@gmail.com">Contact</a>
+      <a class="button button-primary" href="/projects/">Projects</a>
+      <a class="button" href="/about/">About</a>
     </div>
   </div>
   <div class="hero-visual">
     <div class="portrait-wrap">
       <img src="https://github.com/bawantha.png" alt="Bawantha Ra." />
     </div>
-    <div class="signal-card">
-      <span>Currently focused on</span>
-      <strong>Mobile products, APIs, open source, and clear technical writing.</strong>
+    <div class="statement-card">
+      <div class="statement-row">
+        <span>Location</span>
+        <strong>Australia</strong>
+      </div>
+      <div class="statement-row">
+        <span>Focus</span>
+        <strong>Mobile apps and backend systems</strong>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="home-strip">
-  {{ range site.Params.focusAreas }}
-  <article class="focus-tile">
-    <h2>{{ .title }}</h2>
-    <p>{{ .text }}</p>
-  </article>
-  {{ end }}
+<section class="feature-section">
+  <div class="section-heading">
+    <p class="eyebrow">About</p>
+    <h2>{{ site.Params.aboutSection.title }}</h2>
+    <p>
+      {{ site.Params.aboutSection.text }}
+    </p>
+  </div>
 </section>
 
 <section class="feature-section">
   <div class="section-heading">
-    <p class="eyebrow">Selected work</p>
-    <h2>Projects with a product brain behind them</h2>
+    <p class="eyebrow">Projects</p>
+    <h2>Selected projects</h2>
     <p>
-      These are the kinds of things I like building: useful integrations, developer tooling, and polished app experiences.
+      A few things I have built and shared publicly.
     </p>
   </div>
   <div class="feature-grid">
-    {{ range site.Params.featuredProjects }}
+    {{ range site.Params.projectCards }}
     <a class="feature-card" href="{{ .url }}" rel="noopener">
-      <p class="feature-meta">{{ .stack }}</p>
+      <p class="feature-meta">Project</p>
       <h3>{{ .title }}</h3>
-      <p>{{ .summary }}</p>
+      <p>{{ .text }}</p>
     </a>
     {{ end }}
-  </div>
-</section>
-
-<section class="feature-section writing-section">
-  <div class="section-heading">
-    <p class="eyebrow">Writing</p>
-    <h2>Notes on software, interviews, and the work between releases</h2>
-    <p>
-      I use writing to make lessons reusable, whether they come from architecture decisions, debugging pain, or career experiments.
-    </p>
-  </div>
-  <div class="feature-grid writing-grid">
-    {{ range site.Params.featuredWriting }}
-    <a class="feature-card writing-card" href="{{ .url }}" rel="noopener">
-      <p class="feature-meta">Bawantha.blog</p>
-      <h3>{{ .title }}</h3>
-      <p>{{ .summary }}</p>
-    </a>
-    {{ end }}
-  </div>
-</section>
-
-<section class="cta-panel">
-  <div>
-    <p class="eyebrow">Let’s build</p>
-    <h2>If you are building something useful, I’m always up for a good conversation.</h2>
-  </div>
-  <div class="cta-actions">
-    <a class="button button-primary" href="mailto:bawanth.inbox@gmail.com">Email me</a>
-    <a class="button" href="https://github.com/bawantha" rel="noopener">GitHub</a>
   </div>
 </section>
 

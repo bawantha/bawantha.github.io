@@ -18,8 +18,8 @@ enableRobotsTXT = true
 
 [params]
   env = "production"
-  description = "Portfolio of Bawantha Ra. - mobile engineer, writer, and builder in Australia."
-  keywords = ["Bawantha", "Portfolio", "Flutter", "Android", "Kotlin", "Dart", "Australia"]
+  description = "Simple portfolio site for Bawantha Ra."
+  keywords = ["Bawantha", "Portfolio", "Flutter", "Android", "Australia"]
   author = "Bawantha Ra."
   defaultTheme = "auto"
   ShowReadingTime = false
@@ -36,28 +36,6 @@ enableRobotsTXT = true
 
   [params.profileMode]
     enabled = false
-    title = "Bawantha Ra."
-    subtitle = "Mobile engineer in Australia building thoughtful apps, backend systems, and developer tools. I write about software + life, share lessons from shipping, and care deeply about clean product experiences."
-    imageUrl = "https://github.com/bawantha.png"
-    imageWidth = 180
-    imageHeight = 180
-    imageTitle = "Bawantha Ra."
-
-    [[params.profileMode.buttons]]
-      name = "Projects"
-      url = "/projects/"
-
-    [[params.profileMode.buttons]]
-      name = "Writing"
-      url = "/writing/"
-
-    [[params.profileMode.buttons]]
-      name = "Contact"
-      url = "/contact/"
-
-    [[params.profileMode.buttons]]
-      name = "Blog"
-      url = "https://bawantha.blog/"
 
   [[params.socialIcons]]
     name = "github"
@@ -67,60 +45,34 @@ enableRobotsTXT = true
     name = "email"
     url = "mailto:bawanth.inbox@gmail.com"
 
-  [[params.focusAreas]]
-    title = "Mobile systems"
-    text = "Flutter, Android, Kotlin, and the product thinking that makes apps feel calm and dependable."
+  [params.homeIntro]
+    title = "Bawantha Ra."
+    lead = "I build mobile apps and software that feel simple, fast, and useful."
+    blurb = "This is a small portfolio with a short introduction and a few selected projects."
 
-  [[params.focusAreas]]
-    title = "Backend foundations"
-    text = "API design, service reliability, and practical systems that support real mobile experiences."
+  [params.aboutSection]
+    title = "About"
+    text = "I am a software engineer based in Australia, focused on mobile development, backend systems, and product-minded engineering. I like building clean experiences and reliable systems behind them."
 
-  [[params.focusAreas]]
-    title = "Open source"
-    text = "Small tools, wrappers, and experiments that remove friction for developers."
-
-  [[params.focusAreas]]
-    title = "Writing"
-    text = "Technical notes, interview reflections, and software lessons shared at bawantha.blog."
-
-  [[params.featuredProjects]]
+  [[params.projectCards]]
     title = "payhere_flutter"
-    summary = "A Flutter wrapper around the native PayHere Android SDK, built to smooth out a painful integration edge."
-    stack = "Flutter, Dart, Android SDK"
+    text = "A Flutter wrapper for the native PayHere Android SDK."
     url = "https://github.com/bawantha/payhere_flutter"
 
-  [[params.featuredProjects]]
+  [[params.projectCards]]
     title = "flutter-widget-catcher"
-    summary = "A developer productivity tool for inspecting and iterating on Flutter UI faster."
-    stack = "Flutter, DX tooling"
+    text = "A small tool to help inspect and iterate on Flutter UI."
     url = "https://github.com/bawantha/flutter-widget-catcher"
 
-  [[params.featuredProjects]]
+  [[params.projectCards]]
     title = "composifi"
-    summary = "Jetpack Compose exploration focused on expressive motion and polished mobile UI."
-    stack = "Kotlin, Jetpack Compose"
+    text = "Jetpack Compose experiments around polished mobile UI."
     url = "https://github.com/bawantha/composifi"
 
-  [[params.featuredProjects]]
+  [[params.projectCards]]
     title = "ktor-banking"
-    summary = "A Kotlin backend experiment shaped around banking-style APIs and dependable service design."
-    stack = "Kotlin, Ktor"
+    text = "A Kotlin backend experiment around banking-style APIs."
     url = "https://github.com/bawantha/ktor-banking"
-
-  [[params.featuredWriting]]
-    title = "Managing API Contracts: Mobile Developer's Perspective"
-    summary = "A practical look at keeping backend and mobile teams aligned when APIs evolve."
-    url = "https://bawantha.blog/2025/03/21/managing-api-contracts-mobile-developers-perspective/"
-
-  [[params.featuredWriting]]
-    title = "Isolates in Dart and Flutter"
-    summary = "A clean explanation of isolates, concurrency, and when they matter in Flutter apps."
-    url = "https://bawantha.blog/2024/11/12/isolates-in-dart-and-flutter/"
-
-  [[params.featuredWriting]]
-    title = "Interview Experience at Cloudflare"
-    summary = "A candid write-up of process, preparation, and lessons from an interview loop."
-    url = "https://bawantha.blog/2024/09/29/interview-experience-cloudflare/"
 
 [[menu.main]]
   identifier = "about"
@@ -133,21 +85,3 @@ enableRobotsTXT = true
   name = "Projects"
   url = "/projects/"
   weight = 20
-
-[[menu.main]]
-  identifier = "writing"
-  name = "Writing"
-  url = "/writing/"
-  weight = 30
-
-[[menu.main]]
-  identifier = "contact"
-  name = "Contact"
-  url = "/contact/"
-  weight = 40
-
-[[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  url = "https://bawantha.blog/"
-  weight = 50
